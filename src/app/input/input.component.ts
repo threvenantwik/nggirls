@@ -24,7 +24,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputComponent implements OnInit {
     title = "input";
-    private todoList = [
+    public todoList = [
         { title: 'install NodeJS', level: 'hard' },
         { title: 'install Angular CLI', level: 'medium' },
         { title: 'create new app',level: 'super easy' },
